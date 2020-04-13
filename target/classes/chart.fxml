@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="chart" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChartController">
+   <children>
+    <BarChart fx:id="freqChart" layoutX="29.0" layoutY="65.0" prefHeight="670.0" prefWidth="931.0" stylesheets="@style.css" title="Word Frequency" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <xAxis>
+          <CategoryAxis side="BOTTOM" />
+      </xAxis>
+      <yAxis>
+          <NumberAxis side="LEFT" />
+      </yAxis>
+    </BarChart>
+      <JFXButton fx:id="backBtn" layoutX="838.0" layoutY="24.0" onAction="#backAction" prefHeight="18.0" prefWidth="131.0" stylesheets="@style.css" text="&lt; Back" AnchorPane.rightAnchor="31.0" />
+   </children>
+</AnchorPane>

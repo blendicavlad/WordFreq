@@ -1,0 +1,75 @@
+.jfx-button {
+    -jfx-button-type: RAISED;
+    -fx-background-color: #2196f3;
+    -fx-text-fill: white;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.jfx-radio-button {
+    -jfx-selected-color: #2196f3!important;
+    -jfx-unselected-color: white!important;
+}
+
+.jfx-rippler {
+    -jfx-rippler-fill: #2196f3!important;
+}
+
+.jfx-radio-button:selected .radio .dot {
+    -jfx-background-color: #2196f3!important;
+    -jfx-background-insets: 0;
+}
+
+.jfx-textfield {
+    -fx-text-fill: white!important;
+    -fx-prompt-text-fill: white!important;
+    -fx-font-family: Kefa;
+    -fx-focus-color: white;
+}
+
+#countNo {
+    -fx-text-fill: white!important;
+    -fx-prompt-text-fill: white!important;
+    -fx-font-family: Kefa;
+    -fx-focus-color: white;
+}
+
+.jfx-tab-pane .tab-selected-line {
+    -fx-stroke: #2196f3!important;
+}
+
+.chart-bar {
+    -fx-bar-fill: #2196f3;
+    -fx-background-color: linear (0%,0%) to (0%,100%)
+        stops (0%, derive(-fx-bar-fill,-30%))
+        (100%, derive(-fx-bar-fill,-40%)),
+        linear (0%,0%) to (0%,100%)
+        stops (0%, derive(-fx-bar-fill,80%))
+        (100%, derive(-fx-bar-fill, 0%)),
+        linear (0%,0%) to (0%,100%)
+        stops (0%, derive(-fx-bar-fill,30%))
+        (100%, derive(-fx-bar-fill,-10%));
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.axis {
+    -fx-tick-label-fill: white!important;
+    -fx-font-family: Kefa!important;
+}
+
+.chart-title {
+    -fx-text-fill: white!important;
+    -fx-font-family: Kefa!important;
+}
+
+#radio {
+    -fx-selected-color: #2196f3;
+    -fx-unselected-color: white;
+    -fx-focus-color: white;
+}
+
