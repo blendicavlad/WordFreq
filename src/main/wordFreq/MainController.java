@@ -137,11 +137,9 @@ public class MainController implements Initializable {
 				try {
 					resultsNo = Integer.parseInt(countNoText);
 				} catch (NumberFormatException e) {
-					FXUtils.errorBox("No. of results field accepts only numbers", "", "ERROR");
 					return null;
 				}
 			} else {
-				FXUtils.errorBox("No. of results field accepts only numbers", "", "ERROR");
 				return null;
 			}
 		}
